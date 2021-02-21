@@ -1,0 +1,35 @@
+.container{
+    background: blue;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    height: 600px;
+     /* flex property */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container > div{
+    width: 70px;
+    height: 70px;
+    background: whitesmoke;
+    border: grey solid 0.3px;
+    /* flex property */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item-3 {
+    order: -1;
+    color: red;
+    background-color: brown;
+    align-self: flex-start;
+}
+.item-4 {
+    background-color: black;
+    align-self: flex-end;
+}
